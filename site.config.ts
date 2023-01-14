@@ -9,18 +9,18 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'wr8 Demo',
-  domain: 'demo.wr8.in',
-  author: 'Verfasor',
-  seotitle: 'Demo Site Created with wr8',
+  name: 'Confused Retriever',
+  domain: 'confusedretriever.com',
+  author: 'Jonathan Lahue',
+  seotitle: 'Confused Retriever - A coding and design blog',
 
   // open graph metadata (optional)
-  description: 'This is a demo website created with wr8.',
+  description: 'A blog documenting my journey through the world of tech.',
 
   // social usernames (optional)
-  twitter: 'verfasor',
-  github: 'verfasor',
-  linkedin: 'verfasor',
+  twitter: 'JCLaHoot',
+  github: 'JCLaHoot',
+  linkedin: 'jonathanlahue',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
