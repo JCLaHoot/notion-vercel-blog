@@ -26,8 +26,8 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: 'https://confusedretriever.com/page-icon.png',
-  defaultPageCover: 'https://confusedretriever.com/page-cover.jpg',
+  defaultPageIcon: '/page-icon.png',
+  defaultPageCover: '/page-cover.jpg',
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
@@ -51,11 +51,11 @@ export default siteConfig({
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
   navigationStyle: 'custom',
-  navigationLinks: [   
+  navigationLinks: [
     {
       title: 'Blog',
       pageId: 'd5f32cf0b3f84497b8167619e43095ec'
-    },    
+    },
     {
       title: 'About',
       pageId: 'd0b48793a7f342ca8a51ddd07c592bb2'
