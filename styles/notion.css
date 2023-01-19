@@ -143,7 +143,11 @@ font-size: 0.9em;
 } 
 
 .dark-mode .notion-header .notion-nav-header {
-  background: var(--Neptune900);
+  background: var(--GoldenFloof500);
+}
+
+.dark-mode .breadcrumbs {
+  color: var(--Neptune900);
 }
 
 .dark-mode .notion-collection-row {
@@ -185,7 +189,7 @@ font-size: 0.9em;
 @media (max-width: 767px) {
 
 .dark-mode .notion-header {
-  background: var(--Neptune900) !important;
+  background: var(--GoldenFloof500) !important;
   box-shadow: none !important;
 }
 
