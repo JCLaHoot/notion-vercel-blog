@@ -13,9 +13,13 @@
 --FrostedMint700: #0CA375;
 --FrostedMint500: #31D8A6;
 
---Watermelon700: #5239B8;
---Watermelon500: #724FFF;
+--Periwinkle700: #5239B8;
+--Periwinkle500: #724FFF;
 
+}
+
+.dark-mode {
+  --bg-color: var(--Neptune900);
 }
 
 
