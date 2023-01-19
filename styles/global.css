@@ -1,6 +1,28 @@
+:root{
+--Neptune900: #19252E;
+--Neptune700: #2C4B5F;
+--Neptune500: #608195;
+--Neptune300: #93ADBC;
+
+--Watermelon700: #CF405D;
+--Watermelon500: #FF4E6E;
+
+--GoldenFloof700: #C09201;
+--GoldenFloof500: #FFC000;
+
+--FrostedMint700: #0CA375;
+--FrostedMint500: #31D8A6;
+
+--Watermelon700: #5239B8;
+--Watermelon500: #724FFF;
+
+}
+
+
 * {
   box-sizing: border-box;
 }
+
 
 a {
   color: inherit;

@@ -137,7 +137,7 @@ font-size: 0.9em;
 } 
 
 .dark-mode .notion-header .notion-nav-header {
-  background: #2f3437;
+  background: var(--Neptune900);
 }
 
 .dark-mode .notion-collection-row {
@@ -179,7 +179,7 @@ font-size: 0.9em;
 @media (max-width: 767px) {
 
 .dark-mode .notion-header {
-  background: #2F3437 !important;
+  background: var(--Neptune900) !important;
   box-shadow: none !important;
 }
 
@@ -584,7 +584,7 @@ font-size: 0.9em;
 /* Workaround for Firefox not supporting backdrop-filter yet */
 @-moz-document url-prefix() {
   .dark-mode .notion-header {
-    background: hsla(203, 8%, 20%, 0.8);
+    background: var(--Neptune900);
   }
 }
 
