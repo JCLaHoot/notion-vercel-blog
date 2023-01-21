@@ -151,8 +151,8 @@ font-size: 0.9em;
   color: var(--Neptune900);
 }
 
-.notion-header .breadcrumb:not(.active):hover {
-  background: var(--GoldenFloof700);
+.dark-mode .notion-header .breadcrumb:not(.active):hover {
+  background: var(--GoldenFloof300);
 }
 
 .dark-mode .notion-header .searchIcon {
