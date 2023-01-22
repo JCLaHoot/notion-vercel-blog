@@ -8,6 +8,10 @@
   padding: 1.5em !important;
 }
 
+:root {
+  --notion-max-width: 720px;
+ }
+
 
 .dark-mode .notion-code {
   background-color: rgba(17, 24, 39, 1);

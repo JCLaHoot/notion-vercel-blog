@@ -4,6 +4,8 @@
   }
 }
 
+
+
 .container {
   position: absolute;
   top: 0;
@@ -44,7 +46,7 @@
 }
 
 .footer {
-  width: 647px;
+  width: 736px;
   max-width: 100%;
   margin: auto auto 0;
   padding: 8px;
@@ -58,6 +60,11 @@
 .copyright {
   font-size: 80%;
   padding: 0.5em;
+}
+
+.copyright a:hover {
+color: var(--Watermelon500);
+border-bottom: 1px solid;
 }
 
 .settings,
@@ -86,31 +93,41 @@
 }
 
 .toggleDarkMode:hover {
-  color: #2795e9;
+  /* color: #2795e9; */
+  color: var(--Watermelon500);
+
 }
 
 .twitter:hover {
-  color: #2795e9;
+  /* color: #2795e9; */
+  color: var(--Watermelon500);
+
 }
 
 .zhihu:hover {
-  color: #0066ff;
+  /* color: #0066ff; */
+  color: var(--Watermelon500);
 }
 
 .github:hover {
-  color: #c9510c;
+  /* color: #c9510c; */
+  color: var(--Watermelon500);
 }
 
 .youtube:hover {
-  color: #ff0000;
+  /* color: #ff0000; */
+  color: var(--Watermelon500);
 }
 
 .linkedin:hover {
-  color: #0077b5;
+  /* color: #0077b5; */
+  color: var(--Watermelon500);
 }
 
 .newsletter:hover {
-  color: #777777;
+  /* color: #777777; */
+  color: var(--Watermelon500);
+
 }
 
 .comments {

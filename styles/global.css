@@ -1,12 +1,16 @@
 :root{
+--Neptune999: #10232F;
 --Neptune900: #19252E;
 --Neptune700: #2C4B5F;
 --Neptune500: #608195;
 --Neptune300: #93ADBC;
+--Neptune100: #C5E4F6;
+--Neptune050: #EDF8FF;
 
 --Watermelon700: #CF405D;
 --Watermelon500: #FF4E6E;
 --Watermelon300: #FF859C;
+--Watermelon125-Transparent: rgba(255, 78, 110, 0.125);
 
 --GoldenFloof700: #C09201;
 --GoldenFloof500: #FFC000;
@@ -19,6 +23,8 @@
 --Periwinkle700: #5239B8;
 --Periwinkle500: #724FFF;
 --Periwinkle300: #9277FF;
+
+--notion-max-width-override: 720px;
 
 }
 
