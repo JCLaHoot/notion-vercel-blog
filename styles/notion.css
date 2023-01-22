@@ -29,6 +29,10 @@
   display: none;
 }
 
+/* .notion-collection {
+  max-width: var(--notion-max-width-override);
+} */
+
 .index-page .notion-code {
   font-size: 85%;
   width: 92%;
@@ -304,7 +308,7 @@ font-size: 0.9em;
 }
 
 .notion-header .notion-nav-header {
-  max-width: 651px;
+  max-width: 748px;
   margin: 0 auto;
 }
 
