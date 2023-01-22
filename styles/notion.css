@@ -29,9 +29,9 @@
   display: none;
 }
 
-/* .notion-collection {
-  max-width: var(--notion-max-width-override);
-} */
+.notion-collection {
+  max-width: 100%;
+}
 
 .index-page .notion-code {
   font-size: 85%;
@@ -443,8 +443,27 @@ font-size: 0.9em;
     padding: 8px;
   }
 
+}
+
+
+@media only screen and (max-width: 380px) {
+  .notion-nav-header .breadcrumb .title {
+    display: none;
+  }
+
+  .notion-nav-header .breadcrumb .notion-page-icon-inline {
+    width: 32px;
+    height: 32px;
+    max-width: 40px;
+    max-height: 40px;
+    margin: 0 4px;
+  }
+
+
+
 
 }
+
 
 .notion .notion-page-icon-cover {
   margin-left: auto;
